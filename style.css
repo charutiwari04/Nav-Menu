@@ -1,0 +1,32 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+	border-radius: 20px;
+}
+.list{
+	display: inline-block;
+	padding: 10px 0;
+}
+li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	width: 130px;
+	z-index: 200;
+}
+#white-box a{
+	width: 130px;
+	background-color: white;
+	opacity: 1;
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 5px;
+	height: 20px;
+	border-radius: 20px;
+	z-index: 100;
+	text-align: center;
+}
